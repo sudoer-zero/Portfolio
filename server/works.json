@@ -1,0 +1,38 @@
+[
+  {
+    "logo": "tales.png",
+    "company": "Tales Store",
+    "role": "Web/Mobile Developer",
+    "tsp": "2023 - present"
+  },
+  {
+    "logo": "ttt.png",
+    "company": "Talk The Talk",
+    "role": "Full Stack Developer",
+    "tsp": "2022 - 2023"
+  },
+  {
+    "logo": "ous.png",
+    "company": "OUS Students",
+    "role": "Back-End Developer",
+    "tsp": "2021 - 2022"
+  },
+  {
+    "logo": "sella.png",
+    "company": "Sella Online Market",
+    "role": "Back-End Developer",
+    "tsp": "2020 - 2021"
+  },
+  {
+    "logo": "as.png",
+    "company": "Asterisk Technologies",
+    "role": "Front-End Developer",
+    "tsp": "2019 - 2021"
+  },
+  {
+    "logo": "free.png",
+    "company": "Freelance",
+    "role": "Back-End Developer",
+    "tsp": "2018 - 2019"
+  }
+]
