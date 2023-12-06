@@ -6,6 +6,7 @@
       <ArticleCard />
       <Works />
     </div>
+    <HireMe />
   </div>
 </template>
 <script setup></script>
