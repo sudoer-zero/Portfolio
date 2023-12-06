@@ -8,7 +8,7 @@
         <img
           src="/logo.png"
           alt="logo"
-          class="w-14 h-14 bg-teal-500 rounded-full p-2"
+          class="w-14 h-14 bg-gray-300 rounded-full p-2"
         />
       </nuxt-link>
       <NavBar />
