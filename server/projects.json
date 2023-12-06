@@ -1,0 +1,37 @@
+[
+  {
+    "logo": "vui.png",
+    "title": "VuetifyUI",
+    "description": "A collection of UI components for Vuetify framework",
+    "url": "https://vuetifyui.vercel.app/",
+    "tools": ["devicon-plain:vuetify"]
+  },
+  {
+    "logo": "shift.png",
+    "title": "Shifter",
+    "description": "A self hosted solution to replace Firefox Send, powered by Django",
+    "url": "https://github.com/TobySuch/Shifter",
+    "tools": ["akar-icons:django-fill", "mdi:tailwind"]
+  },
+  {
+    "logo": "copipy.png",
+    "title": "Copipy",
+    "description": "A python package for adding copyright information to your projects",
+    "url": "https://github.com/sudoer-zero/copipy",
+    "tools": ["simple-icons:python"]
+  },
+  {
+    "logo": "port.png",
+    "title": "Portfolio",
+    "description": "My personal portfolio website",
+    "url": "https://sudoerzero.vercel.app/",
+    "tools": ["tabler:brand-nuxt", "mdi:tailwind"]
+  },
+  {
+    "logo": "devs.png",
+    "title": "Devs Hub",
+    "description": "Social platform for developers to share their projects",
+    "url": "https://devs-hub-weld.vercel.app/",
+    "tools": ["devicon-plain:vuetify", "simple-icons:supabase"]
+  }
+]
