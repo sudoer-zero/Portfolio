@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Creating a Python Package that Prints Hello World",
+    "slug": "creating-a-python-package-that-prints-hello-world",
+    "description": "Very simple python package that prints 'Hello World'",
+    "date": "April 28, 2019",
+    "icons": ["simple-icons:python"]
+  }
+]
