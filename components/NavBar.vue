@@ -18,7 +18,6 @@
     </nav>
   </div>
 </template>
-
 <script setup>
 const links = [
   {
@@ -32,10 +31,6 @@ const links = [
   {
     name: "Uses",
     link: "/uses",
-  },
-  {
-    name: "About",
-    link: "/about",
   },
 ];
 const activeLink = ref(null);
