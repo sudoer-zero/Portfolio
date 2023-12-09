@@ -1,9 +1,9 @@
 <template>
   <div class="w-full md:w-3/4 lg:w-full mx-auto p-4 border-2 border-slate-200 dark:border-slate-700 rounded-lg">
-    <h1 class="flex items-center font-bold text-slate-700 dark:text-slate-300 my-4 mx-2">
+    <h1 class="flex font-bold text-slate-700 dark:text-slate-300 my-4 mx-2">
       <Icon name="uil:bag" size="25" class="text-slate-500 mr-3" /> Works
     </h1>
-    <div class="flex items-center" v-for="work in data" :key="work.company">
+    <div class="flex justify-between items-center" v-for="work in data" :key="work.company">
       <div class="border-2 border-slate-200 dark:border-slate-700 rounded-full p-1">
         <img :src="/works/ + work.logo" alt="" class="w-8 h-8" />
       </div>

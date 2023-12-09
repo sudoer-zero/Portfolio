@@ -5,7 +5,7 @@
         <h1
           class="text-slate-700 dark:text-slate-300 font-bold text-3xl md:text-5xl"
         >
-          Writing on software engineering, developer tools, and other
+          Writing on software development, developer tools, and other
           curiosities.
         </h1>
         <p class="mt-4 text-slate-600 dark:text-slate-400">
