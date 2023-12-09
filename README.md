@@ -1,75 +1,29 @@
-# Nuxt 3 Minimal Starter
+## Hello, World!
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+I'm Osama Arabi, a passionate developer and content creator.
 
-## Setup
+### About Me
 
-Make sure to install the dependencies:
+- Full-stack Developer | Open Source Contributor
+- Currently working on VuetifyUI.
+- Exploring new technologies and frameworks
+- Learning something new every day
 
-```bash
-# npm
-npm install
+### Content Creation
 
-# pnpm
-pnpm install
+Apart from coding, I create content on platforms like YouTube and X. Here's what you can find:
 
-# yarn
-yarn install
+- [My YouTube Channel](https://www.youtube.com/@SudoerZero): Code walkthroughs, tech reviews, and more
+- [My Account on X](https://twitter.com/@SudoerZero): Posts about development, productivity, and tech trends
 
-# bun
-bun install
-```
+### Tech Stack
 
-## Development Server
+- Languages: JavaScript, Python, HTML, CSS
+- Frontend: Vue.js, Next.js
+- Backend: Python, Django
+- Database: Supabase, PostgreSQL
+- Tools: Git, VS Code, Neovim
 
-Start the development server on `http://localhost:3000`:
+### Open for Collaboration
 
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+I'm always open to collaborating on interesting projects. If you have something in mind, let's connect and create!
