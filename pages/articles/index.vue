@@ -2,9 +2,7 @@
   <div>
     <div class="p-4">
       <div class="my-10">
-        <h1
-          class="text-slate-700 dark:text-slate-300 font-bold text-3xl md:text-5xl"
-        >
+        <h1 class="text-slate-700 dark:text-slate-300 font-bold text-3xl md:text-5xl">
           Writing on software development, developer tools, and other
           curiosities.
         </h1>
@@ -16,32 +14,28 @@
       <div v-for="article in articles" :key="article.title">
         <div class="grid grid-cols-12 gap-2 md:gap-4">
           <h1
-            class="text-slate-500 text-sm px-4 md:py-4 col-span-12 md:col-span-3 justify-self-start md:justify-self-center"
-          >
+            class="text-slate-500 text-sm px-4 md:py-4 col-span-12 md:col-span-3 justify-self-start md:justify-self-center hidden md:block">
             <Icon name="gg:time" size="15" /> {{ article.date }}
           </h1>
           <div
-            class="col-span-12 md:col-span-9 border-b-2 border-slate-200 dark:border-slate-700 mb-8 hover:bg-slate-100 hover:dark:bg-slate-800 p-4 rounded-lg shadow-lg"
-          >
-            <nuxt-link :to="`/articles/${article.slug}`">
+            class="col-span-12 md:col-span-9 border-b-2 border-slate-200 dark:border-slate-700 mb-8 hover:bg-slate-100 hover:dark:bg-slate-800 p-4 rounded-lg shadow-lg">
+            <nuxt-link :to="`/articles/${article.slug}`" @click="postClicked = true">
+              <p class="text-slate-500 text-sm pb-4 md:hidden">
+                <Icon name="gg:time" size="15" /> {{ article.date }}
+              </p>
               <div>
                 <h2 class="text-slate-700 dark:text-slate-300 font-bold pb-2">
                   {{ article.title }}
                 </h2>
-                <p
-                  class="text-sm font-normal text-slate-600 dark:text-slate-400 pb-8"
-                >
+                <p class="text-sm font-normal text-slate-600 dark:text-slate-400 pb-8">
                   {{ article.description }}
                 </p>
                 <p class="text-teal-500 text-sm flex justify-between">
                   Read more
                   <span>
-                    <Icon
-                      size="15"
-                      v-for="icon in article.icons"
-                      :key="icon"
-                      :name="icon"
-                    />
+                    <Icon v-show="postClicked" name="gg:spinner" size="20"
+                      class="text-teal-500 pb-0.5 animate-spin mx-2" />
+                    <Icon size="15" v-for="icon in article.icons" :key="icon" :name="icon" />
                   </span>
                 </p>
               </div>
@@ -56,4 +50,8 @@
 import data from "../server/articles.json";
 
 const articles = data;
+
+// fake loading :)
+const postClicked = ref(false);
+
 </script>
