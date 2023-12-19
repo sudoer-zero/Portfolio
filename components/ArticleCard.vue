@@ -6,7 +6,7 @@
         <div>
           <span class="text-slate-500 text-sm">{{ article.date }}
 
-            <Icon v-show="postClicked" name="gg:spinner" size="15" class="text-teal-500 pb-0.5 animate-spin" />
+            <Icon v-show="postClicked" name="ei:spinner" size="15" class="text-teal-500 pb-0.5 animate-spin" />
           </span>
           <h1 class="text-slate-700 dark:text-slate-300 font-medium pt-2">
             {{ article.title }}

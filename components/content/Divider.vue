@@ -1,3 +1,3 @@
 <template>
-  <div class="my-8 md:my-12"></div>
+  <div class="my-4 md:my-8"></div>
 </template>

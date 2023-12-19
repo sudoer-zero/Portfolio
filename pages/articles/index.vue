@@ -33,7 +33,7 @@
                 <p class="text-teal-500 text-sm flex justify-between">
                   Read more
                   <span>
-                    <Icon v-show="postClicked" name="gg:spinner" size="20"
+                    <Icon v-show="postClicked" name="ei:spinner" size="20"
                       class="text-teal-500 pb-0.5 animate-spin mx-2" />
                     <Icon size="15" v-for="icon in article.icons" :key="icon" :name="icon" />
                   </span>
