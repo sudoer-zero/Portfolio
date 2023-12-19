@@ -1,9 +1,17 @@
-[
+[ 
   {
+    "title": "Simple way to test functions performance",
+    "slug": "simple-way-to-test-functions-performance",
+    "description": "Simple way to test function performance",
+    "date": "Dec 19, 2023",
+    "icons": ["fluent:javascript-20-filled"]
+  },
+ {
     "title": "Creating a Python Package that Prints Hello World",
     "slug": "creating-a-python-package-that-prints-hello-world",
     "description": "Very simple python package that prints 'Hello World'",
     "date": "April 28, 2019",
     "icons": ["simple-icons:python"]
   }
+
 ]
